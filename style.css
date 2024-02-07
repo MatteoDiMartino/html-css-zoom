@@ -18,6 +18,7 @@ img {
 
 body {
     background-color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -28,7 +29,7 @@ header {
 
 main {
     height: calc(100vh - 160px);
-    
+    overflow-y: auto;
 }
 
 footer {
@@ -62,10 +63,15 @@ footer {
 .spacebutton {
     margin-right: 5px;
 }
+
+.last-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
 /*--------------
      ELEMENT 
 --------------*/
-
 .button {
     padding: 7px 5px;
     border-radius: 5px;
@@ -88,6 +94,123 @@ footer {
     padding-top: 3px;
     padding-right: 3px;
 }
+
+.hcol {
+    height: 80px;
+}
+
+.col25 {
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.col25-2 {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+
+.col50 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.settingcol25 {
+    padding: 10px;
+    
+}
+
+.settingcol252 {
+    padding: 10px;
+
+}
+
+.settingcol50 {
+    padding: 10px;
+    
+}
+
+.col25 i {
+    font-size: 35px;
+
+}
+
+.col50 i:not(:last-child) {
+    font-size: 35px;
+
+}
+
+.hmute {
+    text-align: center;
+    font-size: 11px;
+    padding-top: 7px;
+    vertical-align: middle;
+}
+
+.hinvite {
+    text-align: center;
+    font-size: 11px;
+    padding-top: 7px;
+}
+
+/* .mpar {
+    text-align: center;
+} */
+
+.mpar2 {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.mpar3 {
+    text-align: center;
+    margin-left: 20px;
+}
+
+.mpar4 {
+    text-align: center;
+    margin-left: 20px;
+}
+
+.colorp4  :not(:last-child){
+    color: #4bc800;
+}
+
+.mpararrow {
+    text-align: center;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.camicon {
+    display: flex;
+    justify-content: center;
+}
+
+.webcam-element {
+    margin-left: 20px;
+}
+
+.box-end {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: #4a4a4a;
+    color: #fb1d35;
+    height: 80px;
+    padding: 0px 20px;
+}
+
+.endmeetingel {
+    width: 100px;
+}
 /*--------------
      TYPO
 --------------*/
@@ -106,6 +229,12 @@ footer {
     
 }
 
-.size-button-head {
-    
+.txt-arrow > i{
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.txt-arrow2 > i{
+    font-size: 15px;
+    margin-left: 25px;
 }
