@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+img {
+    width: 100%;
+}
+
 /*--------------
      LAYOUT 
 --------------*/
@@ -24,6 +28,7 @@ header {
 
 main {
     height: calc(100vh - 160px);
+    
 }
 
 footer {
@@ -33,12 +38,14 @@ footer {
 }
 
 .container {
-    max-width: 1300px;
+    max-width: 1400px;
 }
 
 .addchangecontainer {
     display: flex;
     margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
@@ -68,6 +75,7 @@ footer {
 .general-square {
     display: flex;
     position: relative;
+    padding: 5px 5px 0px 5px;
 }
 
 .name-member {
