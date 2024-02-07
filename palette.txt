@@ -1,0 +1,9 @@
+wallaper: black
+
+footer bg: #222222
+
+green-icon: #4bc800
+
+grey-header: #4a4a4a
+
+red-button-text: #fb1d35
