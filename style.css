@@ -26,3 +26,37 @@ header {
     display: flex;
     justify-content: end;
 }
+
+.spacehead{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.spacebutton {
+    margin-right: 5px;
+}
+/*--------------
+     ELEMENT 
+--------------*/
+
+.button {
+    padding: 7px 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+/*--------------
+     TYPO
+--------------*/
+
+.txt-white {
+    color: white;
+}
+
+.bg-grey {
+    background-color: #4a4a4a;
+}
+
+.size-button-head {
+    
+}
